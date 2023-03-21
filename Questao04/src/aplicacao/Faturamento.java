@@ -13,6 +13,7 @@ public class Faturamento {
 		
 		System.out.print("Digite o valor mensal de faturamento da filial: ");
 		double valorMensal = ler.nextDouble();
+		
 		double porcentagem = faturamento(valorTotal, valorMensal);
 		
 		System.out.println("A porcentagem de faturamento mensal da filial foi de: "+String.format("%.2f", porcentagem)+"%");
